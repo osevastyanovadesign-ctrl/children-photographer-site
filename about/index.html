@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Инна — Инна Савина</title>
+  <meta name="description" content="Фотограф новорождённых в Брянске." />
+  <meta property="og:title" content="Инна — Инна Савина" />
+  <meta property="og:image" content="../og.jpg" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Outfit:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="logo" href="../">Инна Савина</a>
+    <nav class="nav-links">
+      <a href="../gallery/newborn/">Новорождённые</a>
+      <a href="../gallery/toddlers/">Малыши</a>
+      <a href="../gallery/children/">3–5 лет</a>
+      <a href="../#otzyvy">Отзывы</a>
+      <a href="../booking/" class="solid">Запись</a>
+    </nav>
+    <button class="menu-btn" type="button" data-menu aria-label="Открыть меню">☰</button>
+  </div>
+  <div class="mobile-nav" data-mobile>
+    <a href="../gallery/newborn/">Новорождённые</a>
+    <a href="../gallery/toddlers/">Малыши</a>
+    <a href="../gallery/children/">3–5 лет</a>
+    <a href="../#otzyvy">Отзывы</a>
+    <a href="../booking/">Запись</a>
+  </div>
+</header>
+<main>
+<article class="page-hero about-page">
+  <div class="page-hero-photo"><img src="../photos/inna.webp" alt="Инна Савина" /></div>
+  <div class="page-hero-copy">
+    <p class="kicker">Фотограф новорождённых · Брянск</p>
+    <h1>Меня зовут Инна</h1>
+    <p>Я фотографирую новорождённых и детей до 5 лет. 8 лет с младенцами, обучения у известных фотографов России и своя детская студия.</p>
+    <p style="margin-top:1rem">Семья получает кадры и спокойный процесс: реквизит на месте, образы заранее, дом или студия.</p>
+    <a class="btn btn-light" href="../booking/" style="margin-top:2.5rem;width:fit-content">Записаться</a>
+  </div>
+</article>
+</main>
+<footer>
+  <div class="foot">
+    <div class="foot-photo"><img src="../photos/hero.webp" alt="Новорождённый — кадр студии" /></div>
+    <div class="foot-copy">
+      <div>
+        <p class="name">Инна Савина</p>
+        <p class="sub">Фотограф новорождённых · Брянск</p>
+      </div>
+      <div class="contacts">
+        <a href="tel:+79003626091">8 900 362-60-91</a>
+        <a href="https://vk.ru/innasavina.photo" target="_blank" rel="noreferrer">ВКонтакте</a>
+        <p class="motto">Момент, который не повторится</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фотографии">
+  <div class="lb-top">
+    <p class="logo" data-lb-count></p>
+    <button type="button" data-close aria-label="Закрыть">✕</button>
+  </div>
+  <div class="lb-stage">
+    <button class="lb-nav prev" type="button" data-prev aria-label="Предыдущий кадр">‹</button>
+    <img data-lb-img alt="" />
+    <button class="lb-nav next" type="button" data-next aria-label="Следующий кадр">›</button>
+  </div>
+  <div class="lb-bot">
+    <p data-lb-cap></p>
+    <div class="lb-mob">
+      <button type="button" data-prev-m aria-label="Предыдущий кадр">‹</button>
+      <button type="button" data-next-m aria-label="Следующий кадр">›</button>
+    </div>
+  </div>
+</div>
+<script src="../js/site.js"></script>
+</body></html>
