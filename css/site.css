@@ -159,7 +159,7 @@ input:focus, select:focus, textarea:focus { box-shadow: 0 0 0 2px rgba(193,122,1
   .stripe-left { display: block; position: absolute; inset: 0 auto 0 0; width: 4rem; background: var(--ink); pointer-events: none; }
   .spread { flex-direction: row; }
   .spread.reverse { flex-direction: row-reverse; }
-  .spread-copy { width: 36%; padding: 3.5rem 3rem 3.5rem 6rem; }
+  .spread-copy { width: 36%; padding: 3.5rem 3rem; }
   .pair .spread-copy { width: 34%; }
   .details button { height: 14rem; }
   .pair-photos { flex: 1; min-height: 70vh; }
