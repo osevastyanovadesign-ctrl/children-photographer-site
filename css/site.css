@@ -177,7 +177,7 @@ input:focus, select:focus, textarea:focus { box-shadow: 0 0 0 2px rgba(193,122,1
   .foot-copy { padding: 4rem 3.5rem; }
   .foot-copy .name { font-size: 3rem; }
   .page-hero { flex-direction: row; min-height: 62vh; }
-  .page-hero-copy { width: 34%; padding: 3.5rem 6rem; }
+  .page-hero-copy { width: 34%; padding: 3.5rem 6rem 3.5rem 9rem; }
   .about-page { min-height: calc(100vh - 4.25rem); }
   .about-page .page-hero-photo { min-height: calc(100vh - 4.25rem); flex: 1; }
   .about-page .page-hero-copy { width: 38%; justify-content: center; }
