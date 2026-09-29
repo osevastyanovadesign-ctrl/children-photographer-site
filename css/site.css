@@ -162,7 +162,7 @@ input:focus, select:focus, textarea:focus { box-shadow: 0 0 0 2px rgba(193,122,1
   .spread-copy { width: 36%; padding: 3.5rem 3rem; }
   .pair .spread-copy { width: 34%; }
   .details button { height: 14rem; }
-  .pair-photos { flex: 1; min-height: 55vh; }
+  .pair-photos { flex: 1; min-height: 70vh; }
   .plinth-photo { height: 72vh; }
   .plinth-bar { flex-direction: row; align-items: center; padding: 2.5rem 2.5rem; }
   .plinth-bar h2 { font-size: 2.25rem; }
@@ -177,7 +177,11 @@ input:focus, select:focus, textarea:focus { box-shadow: 0 0 0 2px rgba(193,122,1
   .foot-copy { padding: 4rem 3.5rem; }
   .foot-copy .name { font-size: 3rem; }
   .page-hero { flex-direction: row; min-height: 62vh; }
-  .page-hero-copy { width: 34%; padding: 3.5rem 6rem 3.5rem 9rem; }
+  .page-hero-copy {
+  width: 34%;
+  padding: 3.5rem 6rem;
+  transform: translateX(3rem);
+}
   .about-page { min-height: calc(100vh - 4.25rem); }
   .about-page .page-hero-photo { min-height: calc(100vh - 4.25rem); flex: 1; }
   .about-page .page-hero-copy { width: 38%; justify-content: center; }
